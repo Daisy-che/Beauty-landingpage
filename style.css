@@ -17,7 +17,7 @@ width: 20px;
     display: flex;
     background-color:rgb(240, 210, 210);
     gap: 50px;
-    padding: 50px;
+    padding: 10px;
     
 }
 .button1{
@@ -34,17 +34,17 @@ width: 20px;
     display: flex;
     gap: 50px;
     background-color: white;
-    padding: 50px;
+    padding: 20px;
     
 }
 .beau{
-    width: 400px;
+    width: 300px;
 }
 .yana{
     display: flex;
-    gap: 50px;
+    gap: 10px;
     background-color: rgb(249, 234, 180);
-    padding: 50px;
+    padding: 30px;
 }
 .now{
     border-radius: 20px;
@@ -61,9 +61,6 @@ body{
  padding: 1%;   
     
 }
-.girlcream{
-    
-}
 
 @media screen and (min-width:280px) and (max-width:500px){
 .navbar{
@@ -71,7 +68,7 @@ body{
         grid-template-columns: auto;
         }
 .glow{
-  flex-wrap: wrap;
+flex-wrap: wrap;
 grid-template-columns: auto;
 } 
 .yana{
@@ -81,6 +78,12 @@ grid-template-columns: auto;
 .color{
     flex-wrap: wrap;
     grid-template-columns: auto;
-}      
+} 
+.flower{
+    width: 100px;
+}  
+.beau{
+    width: 100px;
+}   
     
 }
